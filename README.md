@@ -3,7 +3,7 @@ Interactive Python tool that models AC circuits using complex numbers — calcul
 
 It models the working of an AC circuit. The user can add any number of resistors, capacitors or inductors, choose series or parallel connections and view the final value of impedance or current and their respective phases
 
-Used complex numbers for the calculations of reactances since it makes the calculations much easier this way, rather than calculating using trigonometry. The imaginary part is the phase shift. 0 for resistor, +ve angle for an inductor and -ve angle for a capacitor. 
+Used complex numbers for the calculations of reactances since it makes the calculations much easier this way, rather than calculating using trigonometry. The imaginary part is the phase shift. 0 for resistor, +ve angle for an inductor and -ve angle for a capacitor, due to the voltage leading the current in case of inductors and lagging in case of capacitors. (Basics of AC circuits)
 
 python AC_Generator.py
 prompts guide you how to run the program throughout
